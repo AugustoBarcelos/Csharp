@@ -4,12 +4,14 @@ public class Program
 {
 	public static void Main()
 	{
+		int A, B, C;
 		Console.WriteLine("Enter first number:");
-		int first = int.Parse(Console.ReadLine());	
+		A = int.Parse(Console.ReadLine());	
 		Console.WriteLine("Enter second number:");
-		int sec = int.Parse(Console.ReadLine());
-				
-		Console.WriteLine("SUM:"+first+sec);
+		B = int.Parse(Console.ReadLine());
+		C = A+B;
+		
+		Console.WriteLine("SUM:"+C);
 	
 
 	}
