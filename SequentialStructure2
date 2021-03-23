@@ -1,0 +1,18 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		double pi, raio, area;
+		pi=3.14159;
+		Console.WriteLine("Enter Radius:");
+		raio = double.Parse(Console.ReadLine());	
+		area=(raio*raio)*pi;
+		
+		
+		Console.WriteLine("A="+area);
+	
+
+	}
+}
