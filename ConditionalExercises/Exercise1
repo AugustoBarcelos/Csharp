@@ -1,0 +1,21 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("System which verify if a number is negative or not.");
+		Console.WriteLine("Enter with a number to be verified:");
+		int a= int.Parse(Console.ReadLine());
+		
+		if (a>0){
+			Console.WriteLine("Positive Number");
+		}
+		else if (a==0){
+			Console.WriteLine("Null");
+		}
+		else if (a<0){
+		Console.WriteLine("Negative");
+		}
+	}
+}
