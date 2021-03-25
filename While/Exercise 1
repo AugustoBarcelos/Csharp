@@ -1,1 +1,18 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Enter your Password:");
+		string x = Console.ReadLine();
+		string y = "2002";
+		
+        while (x != y){
+		Console.WriteLine("Wrong Password");
+			x = Console.ReadLine();
+		}    
+		Console.WriteLine("Access Granted.");
+			}
+	}
 
