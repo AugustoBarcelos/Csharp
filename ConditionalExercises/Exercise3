@@ -1,0 +1,20 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Verify if the number are multiple of another (regardless of the order)");
+		Console.WriteLine("Enter the first number:");
+		int a= int.Parse(Console.ReadLine());
+		Console.WriteLine("Enter the second number:");
+		int b= int.Parse(Console.ReadLine());
+		
+		if (b % a ==0 || a % b ==0){
+			Console.WriteLine("Multiple");
+		}
+		else if(b % a != 0|| a % b !=0){
+		Console.WriteLine("Not Multiple");
+		}
+	}
+}
