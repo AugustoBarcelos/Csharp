@@ -1,0 +1,23 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Verify the duration of a game based on the start and end hours");
+		Console.WriteLine("Enter when the game started:");
+		int a= int.Parse(Console.ReadLine());
+		Console.WriteLine("Enter when the game finished:");
+		int b= int.Parse(Console.ReadLine());
+		
+		int duration;
+            if (a < b) {
+                duration = a - b;
+            }
+            else {
+                duration = 24 - a + b;
+            }
+
+            Console.WriteLine("The game lasted " + duration + " Hour(s)");
+	}
+}
