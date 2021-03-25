@@ -1,0 +1,32 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+			Console.WriteLine("Please enter the coordinate separeted by space:");
+            string[] a = Console.ReadLine().Split(' ');
+            int x = int.Parse(a[0]);
+            int y = int.Parse(a[1]);
+
+            while (x != 0 && y != 0) {
+                if (x > 0 && y > 0) {
+                    Console.WriteLine("First");
+                }
+                else if (x < 0 && y > 0) {
+                    Console.WriteLine("Second");
+                }
+                else if (x < 0 && y < 0) {
+                    Console.WriteLine("Third");
+                }
+                else {
+                    Console.WriteLine("Forth");
+                }
+                a = Console.ReadLine().Split(' ');
+                x = int.Parse(a[0]);
+                y = int.Parse(a[1]);
+		
+	}
+}
+}
+
