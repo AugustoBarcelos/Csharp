@@ -1,0 +1,29 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		int cod1,qtd1,cod2,qtd2;
+		double price1,price2,bill;
+		
+		Console.WriteLine("Please insert the code of the part, then quantidy and then the unitary price of the first product");
+		string[] valores = Console.ReadLine().Split(' ');
+		cod1= int.Parse(valores[0]);
+		qtd1 = int.Parse(valores[1]);
+		price1= double.Parse(valores[2]);
+		
+		Console.WriteLine("Please insert the code of the part, then quantidy and then the unitary price of the second product:");
+		string[] value2 = Console.ReadLine().Split(' ');
+		cod2= int.Parse(value2[0]);
+		qtd2 = int.Parse(value2[1]);
+		price2= double.Parse(value2[2]);
+		
+		bill=(qtd1*price1) + (qtd2*price2);
+		
+		Console.WriteLine("Total Bill:"+bill.ToString("F2"));
+       
+
+	
+	}
+}
