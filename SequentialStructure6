@@ -1,0 +1,30 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		double a,c,b,triangle, circle,pi=3.1415, trapezoid, square, retangle;
+		
+        string[] valores = Console.ReadLine().Split(' ');
+
+        a = double.Parse(valores[0]);
+
+        b = double.Parse(valores[1]);
+
+        c = double.Parse(valores[2]);
+		
+ 		triangle= a*c/2.0;
+		circle = pi*c*c;
+		trapezoid = (a+b)/2.0*c;
+		square = b*b;
+		retangle = a*b;
+		
+		Console.WriteLine("Triangle: "+triangle);
+		Console.WriteLine("Circle: "+circle);
+		Console.WriteLine("Trapezoid: "+trapezoid);
+		Console.WriteLine("Square: "+square);
+		Console.WriteLine("Retangle: "+retangle);
+	
+	}
+}
