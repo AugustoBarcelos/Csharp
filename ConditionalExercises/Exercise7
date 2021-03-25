@@ -1,0 +1,34 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		    Console.WriteLine("Check in which quadrant is your number");
+		string[] valuee = Console.ReadLine().Split(' ');
+		double x= double.Parse(valuee[0]);
+		double y= double.Parse(valuee[1]);
+				
+            if (x == 0 && y ==0) {
+                Console.WriteLine("Orign");
+            }
+            else if (x == 0) {
+                Console.WriteLine("Y Axis");
+            }
+		    else if (y == 0) {
+                Console.WriteLine("X Axis");
+            }
+		    else if (x>0.0 && y> 0.0) {
+                Console.WriteLine("Q1");
+            }            
+		    else if (x>0.0 && y< 0.0) {
+                Console.WriteLine("Q4");
+            } 
+		    else if (x<0.0 && y> 0.0) {
+                Console.WriteLine("Q2");
+            }		
+			else if (x<0.0 && y< 0.0) {
+                Console.WriteLine("Q3");
+            }
+			}
+	}
