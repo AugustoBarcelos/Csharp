@@ -1,0 +1,26 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Enter your Wage:");
+		double x = double.Parse(Console.ReadLine());
+				
+            if (x<2000) {
+                Console.WriteLine("Not required to pay");
+            }
+            else if (x<=3000) {
+				double tax= 0.08*x;
+                Console.WriteLine("Your due tax is: R$"+tax);
+            }
+		    else if (x<=4500) {
+				double tax= (0.08*1000)+((x-3000)*0.18);
+                Console.WriteLine("Your due tax is: R$"+tax);
+            }
+		    else if (x>4500) {
+				double tax= (0.08*1000)+(1500*0.18)+((x-4500)*0.28);
+                Console.WriteLine("Your due tax is: R$"+tax);                
+			}
+	}
+}
