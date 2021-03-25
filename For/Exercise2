@@ -1,0 +1,28 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+			Console.WriteLine("Please enter the number of numbers to be analyzed:"); 
+			int n = int.Parse(Console.ReadLine());
+			
+			int contin=0;
+			int contout=0;
+			
+			for (int i =1; i<=n ; i++){
+				Console.WriteLine("Enter the number:");
+				int x = int.Parse(Console.ReadLine());
+				
+				if (x >= 10 && x <=20){
+					contin= contin+1;}
+				else {
+					contout= contout + 1;
+				}
+			}
+			Console.WriteLine("Numbers out:"+contout);
+			Console.WriteLine("Numbers in:"+contin);
+				
+				
+			}
+}
