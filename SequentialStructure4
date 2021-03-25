@@ -1,0 +1,22 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		double ID,hours,hoursvalue,payment;
+		
+		Console.WriteLine("Enter Employee ID:");
+		ID= double.Parse(Console.ReadLine());
+		Console.WriteLine("Enter Hours Worked:");
+		hours= double.Parse(Console.ReadLine());
+		Console.WriteLine("Enter Hour Value:");
+		hoursvalue= double.Parse(Console.ReadLine());
+		
+ 		payment=hoursvalue*hours;
+		
+		Console.WriteLine("Employee ID: "+ID);
+		Console.WriteLine("Salary : U$ "+payment);
+
+	}
+}
