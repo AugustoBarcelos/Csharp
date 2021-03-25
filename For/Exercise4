@@ -1,0 +1,28 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+			Console.WriteLine("Please enter the number of numbers to be analyzed:"); 
+			int n = int.Parse(Console.ReadLine());	
+
+			for (int i =1; i<=n ; i++){
+				string[] numbers= Console.ReadLine().Split(' ');
+				double a= double.Parse(numbers[0]);
+				double b= double.Parse(numbers[1]);
+				
+				if (a == 0 || b ==0){
+				Console.WriteLine("Impossible to divide by zero");
+				}
+				else {
+					double div = (double) a/b;
+					
+					Console.WriteLine("The divions is:"+div.ToString("F1"));
+				}
+							
+				
+			}
+}
+}
+
