@@ -1,0 +1,15 @@
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.AssemblyInfoInputs.cache
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.AssemblyInfo.cs
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.csproj.CoreCompileInputs.cache
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.exe
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.deps.json
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.runtimeconfig.json
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.runtimeconfig.dev.json
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.dll
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\ref\Exercises1secondlist.dll
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\bin\Debug\net5.0\Exercises1secondlist.pdb
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.dll
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\ref\Exercises1secondlist.dll
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.pdb
+C:\Users\augus_ijg7nsa\source\repos\Exercises1secondlist\Exercises1secondlist\obj\Debug\net5.0\Exercises1secondlist.genruntimeconfig.cache
